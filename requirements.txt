@@ -1,13 +1,12 @@
 # Core Python packages
 flask
-pandas
-numpy
-scikit-learn
+pandas==2.1.4
+numpy==1.26.4
+scikit-learn==1.2.2
 nltk
 spacy
 en_core_web_sm @ https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-3.8.0/en_core_web_sm-3.8.0-py3-none-any.whl
 pickle-mixin
-xgboost
 
 # For web app and deployment
 gunicorn

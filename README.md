@@ -105,3 +105,5 @@ What needs to be submitted for the evaluation of the project?
 - 'index.html' file, which includes the HTML code of the user interface
 - 'app.py' file, which is the Flask file to connect the backend ML model with the frontend HTML code
 - Supported pickle files, which have been generated while pickling the models
+- In the product_recommendation jupyter notebook the predictions are based on the tuned xgboost model since that had the best accuracy and precision
+- In the Heroku app we predict using tuned RandomForest classifier model as the XGBoost dependency was too big and could not be deployed on Heroku
