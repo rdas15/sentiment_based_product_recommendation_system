@@ -21,9 +21,5 @@ openpyxl
 # For web app and deployment
 gunicorn
 
-# If you use Jupyter notebooks
-jupyter
-notebook
-
 # For compatibility with your code
 requests
