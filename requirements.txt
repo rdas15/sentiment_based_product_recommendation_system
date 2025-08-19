@@ -1,0 +1,29 @@
+# Core Python packages
+flask
+pandas
+numpy
+scikit-learn
+nltk
+spacy
+en_core_web_sm @ https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-3.8.0/en_core_web_sm-3.8.0-py3-none-any.whl
+matplotlib
+seaborn
+plotly
+wordcloud
+imblearn
+xgboost
+
+# Additional packages used in notebooks and code
+joblib
+pickle-mixin
+openpyxl
+
+# For web app and deployment
+gunicorn
+
+# If you use Jupyter notebooks
+jupyter
+notebook
+
+# For compatibility with your code
+requests
